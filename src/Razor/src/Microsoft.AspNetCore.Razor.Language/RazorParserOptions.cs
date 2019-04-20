@@ -15,7 +15,7 @@ namespace Microsoft.AspNetCore.Razor.Language
                 designTime: false,
                 parseLeadingDirectives: false,
                 version: RazorLanguageVersion.Latest,
-                fileKind: null);
+                fileKind: FileKinds.Legacy);
         }
 
         public static RazorParserOptions Create(Action<RazorParserOptionsBuilder> configure)
